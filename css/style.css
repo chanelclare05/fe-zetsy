@@ -8,6 +8,7 @@ body {
 	background: #F3EBE9;
 	font-size: 100%;
 	font-family: 'Times New Roman', serif; 
+	align-items: center;
 }
 
 .wrapper {
@@ -18,3 +19,43 @@ body {
 }
 
 /* Write all remaining styles here */
+* {
+	box-sizing: border-box; 
+}
+
+.wrapper {
+	width: 65%;
+}
+
+.wrapper h1 {
+	font-size: 60px;
+	text-align:left;
+	margin: 0.2em;
+	font-weight: 100;
+	color: rgba(84, 124, 116, 0.692);
+}
+.necklace img {
+	border-top: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 100%;
+}
+
+h2 {
+	color: rgba(84, 124, 116, 0.692);
+}
+
+.pictures img {
+	border: 3px solid rgba(84, 124, 116, 0.692);
+	content: "";
+	clear: both;
+	width: 24%;
+	overflow: auto;
+}
+
+.pictures img::after {
+	content: "";
+	clear: both;
+	display: table;
+  }
+
